@@ -1,0 +1,6 @@
+@ScrynRestApi_HostAddress = http://localhost:5157
+
+GET {{ScrynRestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

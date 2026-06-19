@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "id": "4ef4",
+      "firstname": "Hugo",
+      "email": "ferreira.hugo602@gmail.com",
+      "password": "azertyuiop",
+      "token": "4505mu"
+    }
+  ],
+  "films": [
+    {
+      "id": 1,
+      "title": "Le Comte de Montecristo",
+      "image": "src/assets/montecristo.png",
+      "backdrop": "src/assets/montecristo-banner.png",
+      "rating": 4.3,
+      "duration": "2h58",
+      "genre": ["Aventure", "Historique"],
+      "releaseDate": "28 juin 2024",
+      "description": "Victime d’un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu’il n’a pas commis. Après quatorze ans de détention...",
+      "trailers": [
+        "src/assets/montecristo-trailer.png",
+        "src/assets/montecristo-trailer.png",
+        "src/assets/montecristo-trailer.png"
+      ],
+      "showtimes": [
+        { "day": "Lun", "time": "21h00" },
+        { "day": "Mar", "time": "21h00" },
+        { "day": "Mer", "time": "21h00" },
+        { "day": "Jeu", "time": "21h00" },
+        { "day": "Ven", "time": "21h00" }
+      ]
+    }
+  ],
+  "upcomingMovies": [
+    {
+      "id": 1,
+      "title": "Vaiana 2",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 2,
+      "title": "Wicked",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 3,
+      "title": "Leurs enfants après eux",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 4,
+      "title": "Gladiator II",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 5,
+      "title": "Conclave",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 6,
+      "title": "Le Seigneur des Anneaux",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 7,
+      "title": "Saint-Ex",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 8,
+      "title": "Niko et le petit renne",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 9,
+      "title": "En fanfare",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 10,
+      "title": "Heretic",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 11,
+      "title": "Les femmes au balcon",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 12,
+      "title": "Vingt dieux",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 13,
+      "title": "Juré N°2",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 14,
+      "title": "Venom: The Last Dance",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": 15,
+      "title": "L'amour ouf",
+      "image": "src/assets/vaiana2.png"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "userId": "4ef4",
+      "movieTitle": "Le Comte de MonteCristo",
+      "date": "23 décembre 2024",
+      "time": "21h",
+      "room": "Salle 5",
+      "seat": "Place P4",
+      "image": "src/assets/montecristo.png"
+    },
+    {
+      "id": "2",
+      "userId": "4ef4",
+      "movieTitle": "Vaiana 2",
+      "date": "25 décembre 2024",
+      "time": "18h",
+      "room": "Salle 2",
+      "seat": "Place A7",
+      "image": "src/assets/vaiana2.png"
+    },
+    {
+      "id": "3",
+      "userId": "37fd",
+      "movieTitle": "Wicked",
+      "date": "26 décembre 2024",
+      "time": "20h",
+      "room": "Salle 3",
+      "seat": "Place D9",
+      "image": "src/assets/vaiana2.png"
+    }
+  ]
+}

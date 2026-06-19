@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrynDomain", "ScrynDomain\ScrynDomain.csproj", "{DB7ED579-C063-40C7-9640-AEA70CEAE138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B518FE4A-1546-475F-9907-48D023FD1962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProviders", "DataProviders", "{8C524BC9-466D-4FD9-82AB-7E79F2876DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrynDataProvider", "ScrynDataProvider\ScrynDataProvider.csproj", "{A623D6A7-6BB6-49C3-9D53-931780F9B7BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{CD50AB75-DAE0-4987-8AAA-C93ED15AD372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrynUnitTests", "ScrynUnitTests\ScrynUnitTests.csproj", "{C58877D2-B341-40BC-8243-366A9813E58D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntryPoints", "EntryPoints", "{2E7ACCAF-2788-4AA6-8132-88394C19AE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrynRestApi", "ScrynRestApi\ScrynRestApi.csproj", "{38674E60-CCA8-49A6-A838-C0DDB78EB73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB7ED579-C063-40C7-9640-AEA70CEAE138} = {B518FE4A-1546-475F-9907-48D023FD1962}
+		{A623D6A7-6BB6-49C3-9D53-931780F9B7BE} = {8C524BC9-466D-4FD9-82AB-7E79F2876DE7}
+		{C58877D2-B341-40BC-8243-366A9813E58D} = {CD50AB75-DAE0-4987-8AAA-C93ED15AD372}
+		{38674E60-CCA8-49A6-A838-C0DDB78EB73D} = {2E7ACCAF-2788-4AA6-8132-88394C19AE81}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB7ED579-C063-40C7-9640-AEA70CEAE138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7ED579-C063-40C7-9640-AEA70CEAE138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7ED579-C063-40C7-9640-AEA70CEAE138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7ED579-C063-40C7-9640-AEA70CEAE138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A623D6A7-6BB6-49C3-9D53-931780F9B7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A623D6A7-6BB6-49C3-9D53-931780F9B7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A623D6A7-6BB6-49C3-9D53-931780F9B7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A623D6A7-6BB6-49C3-9D53-931780F9B7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58877D2-B341-40BC-8243-366A9813E58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58877D2-B341-40BC-8243-366A9813E58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58877D2-B341-40BC-8243-366A9813E58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58877D2-B341-40BC-8243-366A9813E58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38674E60-CCA8-49A6-A838-C0DDB78EB73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38674E60-CCA8-49A6-A838-C0DDB78EB73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38674E60-CCA8-49A6-A838-C0DDB78EB73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38674E60-CCA8-49A6-A838-C0DDB78EB73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "NohemiB";
+    src: url("/fonts/Nohemi-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "NohemiEL";
+    src: url("/fonts/Nohemi-ExtraLight.ttf") format("truetype");
+  }
+
+  body {
+    @apply bg-[#161616] text-white;
+    font-family: "NohemiEL", sans-serif;
+    font-size: 18px;
+  }
+
+  h1 {
+    @apply text-6xl;
+    font-family: "NohemiB", sans-serif;
+  }
+
+  h2 {
+    @apply text-2xl;
+    font-family: "NohemiB", sans-serif;
+  }
+
+  h3 {
+    @apply text-xl;
+    font-family: "NohemiB", sans-serif;
+  }
+
+  a {
+    font-family: "NohemiEL", sans-serif;
+    text-decoration: none;
+  }
+
+  .bold {
+    font-family: "NohemiB", sans-serif;
+  }
+
+  .extra-light {
+    font-family: "NohemiEL", sans-serif;
+  }
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 50% !important;
+  transform: translateY(-50%);
+  color: #d4a017 !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.swiper {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+  background: #d4a017 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #d4a017;
+  opacity: 1;
+}
+
+.button {
+  font-family: "NohemiB", sans-serif;
+}
